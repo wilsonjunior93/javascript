@@ -1,3 +1,9 @@
+function limpar() {
+    document.getElementById('txti').value = '';
+    document.getElementById('txtf').value = '';
+    document.getElementById('txtp').value = '';
+}
+
 function contar() {
     let ini = document.getElementById('txti')
     let fim = document.getElementById('txtf')
