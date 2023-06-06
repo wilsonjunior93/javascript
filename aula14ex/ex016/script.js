@@ -2,6 +2,7 @@ function limpar() {
     document.getElementById('txti').value = '';
     document.getElementById('txtf').value = '';
     document.getElementById('txtp').value = '';
+    document.getElementById('res').innerHTML = '';
 }
 
 function contar() {
